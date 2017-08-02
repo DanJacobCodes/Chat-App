@@ -6,7 +6,12 @@ body {
     font-family: 'Raleway';
 }
 button {
-    background:#008FEF;
+    
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(top, #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */;
     color:white;
     padding: 1.2em;
     width:300px;
